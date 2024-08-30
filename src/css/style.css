@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("");
+}
+
+.bigger-box {
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 450px;
+}
+
+.input-city {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  width: calc(100% - 70px);
+}
+
+.buttom-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.search-glass {
+  width: 20px;
+  
+}
+
+
+.City{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+
+}
